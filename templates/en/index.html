@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Patrizio Buonaiuto - Art Replicas</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="{{ url_for('static', filename='img/core-img/favicon.ico') }}">
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/core-style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <!-- Responsive CSS -->
+    <link href="{{ url_for('static', filename='css/responsive.css') }}" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="showbox">
+            <div class="loader">
+                <svg class="circular" viewBox="25 25 50 50">
+                    <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+                </svg>
+            </div>
+        </div>
+        <div class="questions-area text-center">
+            <p>Did you know?</p>
+            <ul>
+                <li>The Mona Lisa has no eyebrows—it was the fashion in Renaissance Florence to shave them off!</li>
+                <li>Van Gogh only sold one painting during his lifetime and yet, he painted over 900 works.</li>
+                <li>The longest time it took to complete a painting was 18 years for Jan van Eyck's Ghent Altarpiece.</li>
+                <li>Did you know? Picasso could draw before he could walk and had his first exhibition at the age of 13.</li>
+                <li>Salvador Dalí would often get out of paying for drinks and meals by drawing on the checks, making them priceless.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Gradient Background Overlay -->
+    <div class="gradient-background-overlay"></div>
+
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <div class="container-fluid h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 h-100">
+                    <div class="main-menu h-100">
+                        <nav class="navbar h-100 navbar-expand-lg">
+                            <!-- Logo Area  -->
+                            <a class="navbar-brand" href="{{ url_for('en_page', page='index') }}">
+                                <h3 class="site-title">Patrizio Buonaiuto</h3>
+                            </a>
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#studioMenu" aria-controls="studioMenu" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i> Menu</button>
+
+                            <div class="collapse navbar-collapse" id="studioMenu">
+                                <!-- Menu Area Start  -->
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <img class="lang-icon" src="/static/img/core-img/lang-icon.png" alt="">
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="{{ url_for('it_page', page='index') }}">
+                                                <img class="lang-icon" src="/static/img/core-img/flag-italy.png" alt="Vai al sito in Italiano">
+                                            </a>
+                                            <a class="dropdown-item" href="{{ url_for('en_page', page='index') }}">
+                                                <img class="lang-icon" src="/static/img/core-img/flag-uk.png" alt="Go to the English site">
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="{{ url_for('en_page', page='index') }}">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{{ url_for('en_page', page='about-me') }}">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{{ url_for('en_page', page='portfolio') }}">Works</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{{ url_for('en_page', page='contact') }}">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <!-- ***** Welcome Area Start ***** -->
+    <section class="welcome-area">
+        <div class="carousel h-100 slide" data-ride="carousel" id="welcomeSlider">
+            <!-- Carousel Inner -->
+            <div class="carousel-inner h-100">
+
+                <div class="carousel-item h-100 bg-img active" style="background-image: url('/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-leonardo-da-vinci-monnalisa.jpg');">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>Patrizio Buonaiuto</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item h-100 bg-img" style="background-image: url('/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-campo-di-papaveri-c-monet.jpeg');">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>Fine Art Reproduction</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item h-100 bg-img" style="background-image: url('/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-munch-urlo.jpg');">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>Reviving The Classics</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item h-100 bg-img" style="background-image: url('/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-klimt-bacio.jpeg');">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>100% Handcrafted</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item h-100 bg-img" style="background-image: url('/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-gustav-klimt-personal-portrait.jpeg');">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>Iconic Art, Personal Touch</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item h-100 bg-img" style="background-image: url('/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-angelo-musicante-rosso-fiorentino.jpg');">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>Your Slice of Art History</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item h-100 bg-img" style="background-image: url('/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-leonardo-da-vinci-disegno.jpeg');">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>From the Studio to Your Space</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item h-100 bg-img" style="background-image: url('/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil.jpg');">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>Trompe-l'œil</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item h-100 bg-img" style="background-image: url('/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-woman-at-her-toilet-henri-de-toulouse-lautrec.jpeg');">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>Artful Legacy, Artisan Made</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item h-100 bg-img" style="background-image: url('/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals.jpeg');">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>Originals</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#welcomeSlider" data-slide-to="0" class="active bg-img" style="background-image: url('/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-leonardo-da-vinci-monnalisa.jpg');"></li>
+                <li data-target="#welcomeSlider" data-slide-to="1" class="bg-img" style="background-image: url('/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-campo-di-papaveri-c-monet.jpeg');"></li>
+                <li data-target="#welcomeSlider" data-slide-to="2" class="bg-img" style="background-image: url('/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-munch-urlo.jpg');"></li>
+                <li data-target="#welcomeSlider" data-slide-to="3" class="bg-img" style="background-image: url('/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-klimt-bacio.jpeg');"></li>
+                <li data-target="#welcomeSlider" data-slide-to="4" class="bg-img" style="background-image: url('/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-gustav-klimt-personal-portrait.jpeg');"></li>
+                <li data-target="#welcomeSlider" data-slide-to="5" class="bg-img" style="background-image: url('/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-angelo-musicante-rosso-fiorentino.jpg');"></li>
+                <li data-target="#welcomeSlider" data-slide-to="6" class="bg-img" style="background-image: url('/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-leonardo-da-vinci-disegno.jpeg');"></li>
+                <li data-target="#welcomeSlider" data-slide-to="7" class="bg-img" style="background-image: url('/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil.jpg');"></li>
+                <li data-target="#welcomeSlider" data-slide-to="8" class="bg-img" style="background-image: url('/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-woman-at-her-toilet-henri-de-toulouse-lautrec.jpeg');"></li>
+                <li data-target="#welcomeSlider" data-slide-to="9" class="bg-img" style="background-image: url('/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals.jpeg');"></li>
+            </ol>
+        </div>
+    </section>
+    <!-- ***** Welcome Area End ***** -->
+
+    <div class="text-home">
+        <h3>Fine Art Reproduction</h3>
+        <p>An Art Replica is a contemporary reproduction of a famous painting from the past.</p>
+        <p>It is the result of artisanal work, entirely executed by hand by a professional painter.</p>
+        <p>It is a work of art made with oil paints on aged canvases or panels, crafted in accordance with the original methods and techniques.
+            It is the outcome of serious and meticulous research and preparation that goes into the finished painting.</p>
+        <p>A Fine Art Reproduction allows for the enjoyment and familiarity of what is typically the exclusive heritage of museums or a select few.</p>
+    </div>
+
+    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+<p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="{{ url_for('static', filename='js/jquery/jquery-2.2.4.min.js') }}"></script>
+    <!-- Popper js -->
+    <script src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+    <!-- Bootstrap js -->
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    <!-- Plugins js -->
+    <script src="{{ url_for('static', filename='js/plugins.js') }}"></script>
+    <!-- Active js -->
+    <script src="{{ url_for('static', filename='js/active.js') }}"></script>
+
+</body>
+
+</html>

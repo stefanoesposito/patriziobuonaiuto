@@ -1,0 +1,105 @@
+{% extends"en/base.html" %}
+
+{% block title %}Art Replica and Trompe l'Oeil - Portfolio of Patrizio Buonaiuto | Figurative Artist{% endblock %}
+
+{% block content %}
+
+    <!-- Project Area Start -->
+    <div class="gallery_area clearfix">
+        <div class="container-fluid clearfix">
+            <div class="gallery_menu">
+                <div class="portfolio-menu">
+                    <button class="active btn" type="button" data-filter="*">All</button>
+                    <button class="btn" type="button" data-filter=".art-replicas">Art Replicas</button>
+                    <button class="btn" type="button" data-filter=".portraits">Portraits</button>
+                    <button class="btn" type="button" data-filter=".trompe-l-oeil">Trompe-l-oeil</button>
+                    <button class="btn" type="button" data-filter=".originals">Originals</button>
+                    <button class="btn" type="button" data-filter=".details">Details</button>
+                </div>
+            </div>
+
+            <div class="row portfolio-column">
+
+                <!-- Single Item -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item art-replicas">
+                    <img src="{{ url_for('static', filename='img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-angelo-musicante-rosso-fiorentino.jpg') }}" alt="">
+                    <div class="hover_overlay">
+                        <a class="gallery_img" href="{{ url_for('static', filename='img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-angelo-musicante-rosso-fiorentino.jpg') }}"><i class="fa fa-eye"></i></a>
+                    </div>
+                </div>
+
+                <!-- Single Item -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item art-replicas">
+                    <img src="{{ url_for('static', filename='img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-campo-di-papaveri-c-monet.jpeg') }}" alt="">
+                    <div class="hover_overlay">
+                        <a class="gallery_img" href="{{ url_for('static', filename='img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-campo-di-papaveri-c-monet.jpeg') }}"><i class="fa fa-eye"></i></a>
+                    </div>
+                </div>
+
+                <!-- Single Item -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item art-replicas portraits">
+                    <img src="{{ url_for('static', filename='img/bg-img/portfolio-patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-gustav-klimt-personal-portrait.png') }}" alt="">
+                    <div class="hover_overlay">
+                        <a class="gallery_img" href="{{ url_for('static', filename='img/bg-img/portfolio-patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-gustav-klimt-personal-portrait.png') }}"><i class="fa fa-eye"></i></a>
+                    </div>
+                </div>
+
+                <!-- Single Item -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item art-replicas">
+                    <img src="{{ url_for('static', filename='img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-klimt-bacio.jpeg') }}" alt="">
+                    <div class="hover_overlay">
+                        <a class="gallery_img" href="{{ url_for('static', filename='img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-klimt-bacio.jpeg') }}"><i class="fa fa-eye"></i></a>
+                    </div>
+                </div>
+
+                <!-- Single Item -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item art-replicas">
+                    <img src="{{ url_for('static', filename='img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-leonardo-da-vinci-monnalisa.jpg') }}" alt="">
+                    <div class="hover_overlay">
+                        <a class="gallery_img" href="{{ url_for('static', filename='img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-leonardo-da-vinci-monnalisa.jpg') }}"><i class="fa fa-eye"></i></a>
+                    </div>
+                </div>
+
+                <!-- Single Item -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item art-replicas">
+                    <img src="{{ url_for('static', filename='img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-munch-urlo.jpg') }}" alt="">
+                    <div class="hover_overlay">
+                        <a class="gallery_img" href="{{ url_for('static', filename='img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-munch-urlo.jpg') }}"><i class="fa fa-eye"></i></a>
+                    </div>
+                </div>
+
+                <!-- Single Item -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item originals">
+                    <img src="{{ url_for('static', filename='img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals.jpeg') }}" alt="">
+                    <div class="hover_overlay">
+                        <a class="gallery_img" href="{{ url_for('static', filename='img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals.jpeg') }}"><i class="fa fa-eye"></i></a>
+                    </div>
+                </div>
+
+                <!-- Single Item -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item art-replicas">
+                    <img src="{{ url_for('static', filename='img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-woman-at-her-toilet-henri-de-toulouse-lautrec.jpeg') }}" alt="">
+                    <div class="hover_overlay">
+                        <a class="gallery_img" href="{{ url_for('static', filename='img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-woman-at-her-toilet-henri-de-toulouse-lautrec.jpeg') }}"><i class="fa fa-eye"></i></a>
+                    </div>
+                </div>
+
+                <!-- Single Item -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 column_single_gallery_item trompe-l-oeil">
+                    <img src="{{ url_for('static', filename='img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil.jpg') }}" alt="">
+                    <div class="hover_overlay">
+                        <a class="gallery_img" href="{{ url_for('static', filename='img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil.jpg') }}"><i class="fa fa-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 text-center mt-70">
+                    <a href="#" class="btn -btn"><img src="{{ url_for('static', filename='img/core-img/logo-icon.png') }}" alt=""> Load More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Project Area End -->
+
+    {% endblock %}

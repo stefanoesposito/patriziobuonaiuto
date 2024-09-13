@@ -1,0 +1,37 @@
+{% extends "it/base.html" %}
+
+{% block title %}Chi Sono - Patrizio Buonaiuto | Artista Figurativo Specializzato in Copie d'Autore e Trompe l'Oeil
+{% endblock %}
+
+{% block content %}
+    <!-- About Me Area Start -->
+    <section class="about-me-area mt-100 section_padding_100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <div class="about-me-img">
+                        <img src="{{ url_for('static', filename='img/core-img/patrizio-buonaiuto-painting-klimt.jpg') }}" alt="Patrizio Buonaiuto mentre dipinge un'opera d'arte su un cavalletto, con una mano che tiene il pennello e l'altra che sorregge la tavolozza dei colori. Sullo sfondo ci sono un letto e una porta, con un quadro appeso al muro.">
+                    </div>
+                </div>
+                <div class="col-10">
+                    <div class="about-content mt-100 mb-30">
+<!--                        <span></span>-->
+                        <h2 class="text-center">Patrizio Buonaiuto</h2>
+                        <p>Patrizio Buonaiuto nasce a Napoli nel 1968, nel 1990/91 si diploma in Pittura all'Accademia Belle Arti di Napoli e da allora inizia un'intensa attività pittorica che lo porta ad esporre proprie opere in numerose mostre collettive.</p>
+
+                        <p>Dal 1992 comincia a specializzarsi nella "Riproduzione d'Autore" ossia la riproduzione fedele di opere del passato ed ad esporre in numerose città italiane per i principali galleristi del settore, tra i quali "Le Musee imaginaire", "Euromedia" e "La Galleria dei Sogni". La particolarità che lo distingue dalla maggior parte dei pittori che si dedicano alle riproduzioni è la sua incredibile versatilità, le sue conoscenze tecniche gli permettono infatti la riproduzione di qualsiasi opera di pittura, dai classici agli impressionisti, fino ai capolavori moderni, rispettando le forme e i modi della tecnica originaria.</p>
+
+                        <p>Ha realizzato negli anni lavori ad olio e trompe l'oeil per importanti negozi e ristoranti di Napoli tra i quali: Marinella, Sartoria Sabino, Ristorante "Zi' Teresa", "La Cantinella" etc.</p>
+
+                        <p>Ha collaborato inoltre con importanti gallerie di Londra tra le quali la "Alexander Miles Gallery" per le quali ha esposto e venduto diverse opere originali.</p>
+                    </div>
+                    <div class="">
+                        <img src="{{ url_for('static', filename='img/core-img/patrizio-buonaiuto-esposizione-casina-pompeiana.jpg') }}" alt="Patrizio Buonaiuto seduto in una galleria d'arte vuota, con quadri appesi alle pareti e file di sedie nere disposte in modo ordinato. La stanza è illuminata da luci viola e si apre su un corridoio illuminato dalla luce naturale.">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Me Area End -->
+
+{% endblock %}

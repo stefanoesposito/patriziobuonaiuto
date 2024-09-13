@@ -1,0 +1,38 @@
+{% extends "en/base.html" %}
+
+{% block title %}About Me - Patrizio Buonaiuto | Figurative Artist Specializing in Art Replicas and Trompe l'Oeil
+{% endblock %}
+
+{% block content %}
+    <!-- About Me Area Start -->
+<section class="about-me-area mt-100 section_padding_100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="about-me-img">
+                    <img src="{{ url_for('static', filename='img/core-img/patrizio-buonaiuto-painting-klimt.jpg') }}" alt="Patrizio Buonaiuto while painting an artwork on an easel, holding the brush in one hand and the color palette in the other. In the background, there is a bed and a door, with a painting hanging on the wall.">
+                </div>
+            </div>
+            <div class="col-10">
+                <div class="about-content mt-100 mb-30">
+                    <!--                        <span></span>-->
+                    <h2 class="text-center">Patrizio Buonaiuto</h2>
+                    <p>Patrizio Buonaiuto was born in Naples in 1968. In 1990/91, he graduated in Painting from the Academy of Fine Arts of Naples and since then has embarked on an intense painting career, exhibiting his works in numerous group exhibitions.</p>
+
+                    <p>Since 1992, he began to specialize in "Author Reproduction," which is the faithful reproduction of past works, and exhibited in numerous Italian cities for leading gallery owners in the field, including "Le Musee imaginaire," "Euromedia," and "La Galleria dei Sogni." What sets him apart from most painters who engage in reproductions is his incredible versatility. His technical knowledge allows him to reproduce any painting, from classics to impressionists, to modern masterpieces, respecting the forms and methods of the original technique.</p>
+
+                    <p>Over the years, he has created oil works and trompe l'oeil for important shops and restaurants in Naples, including: Marinella, Sartoria Sabino, Ristorante "Zi' Teresa," "La Cantinella," etc.</p>
+
+                    <p>He has also collaborated with important galleries in London, including the "Alexander Miles Gallery," for which he has exhibited and sold several original works.</p>
+                </div>
+                <div class="">
+                    <img src="{{ url_for('static', filename='img/core-img/patrizio-buonaiuto-esposizione-casina-pompeiana.jpg') }}" alt="Patrizio Buonaiuto sitting in an empty art gallery, with paintings hanging on the walls and rows of black chairs neatly arranged. The room is lit by purple lights and opens onto a corridor illuminated by natural light.">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Me Area End -->
+
+{% endblock %}
