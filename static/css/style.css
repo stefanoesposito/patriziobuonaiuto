@@ -1,5 +1,6 @@
 .copyLeft {
-    display: none;
+    font-size: 8px;
+    color: #1d1d1d;
 }
 .footer-contacts {
     display: flex;
