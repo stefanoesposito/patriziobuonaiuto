@@ -1,0 +1,8 @@
+.copyLeft {
+    display: none;
+}
+.footer-contacts {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+}

@@ -227,17 +227,34 @@
         margin-bottom: 0;
     }
     .footer-area {
-        position: relative;
-        height: auto;
-        padding: 30px 0 15px;
+        display: flex;
+        position: fixed;
+        height: 80px;
+        padding: 8px 0 15px;
         bottom: 0;
         left: 0;
+        font-size: 8px;
+    }
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-contacts {
+        display: flex;
+        justify-content: flex-start;
+        gap: 16px;
     }
     .single-footer-content {
-        margin-bottom: 15px;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
+        margin-bottom: 12px;
+        /*-webkit-box-pack: center;*/
+        /*-ms-flex-pack: center;*/
+        /*justify-content: center;*/
+    }
+    .single-footer-content a {
+        font-size: 10px;
+    }
+    .single-footer-content img {
+        width: 12px;
     }
     .gallery_area {
         height: auto;
