@@ -63,26 +63,60 @@ def en_page(page):
         return "Page not found", 404
 
 
+# @app.route('/sitemap.xml', methods=['GET'])
+# def sitemap():
+#     pages = []
+#     with app.test_request_context():
+#         # Aggiungi solo le pagine esistenti
+#         static_pages = [
+#             url_for('home', _external=True),
+#             url_for('it_home', _external=True),
+#             url_for('en_home', _external=True)
+#         ]
+#         pages.extend(static_pages)
+#
+#         # Aggiungi le pagine dinamiche esistenti
+#         dynamic_pages = [
+#             url_for('it_page', page='contact', _external=True),
+#             url_for('it_page', page='portfolio', _external=True),
+#             url_for('it_page', page='su-di-me', _external=True),
+#             url_for('en_page', page='contact', _external=True),
+#             url_for('en_page', page='about-me', _external=True),
+#             url_for('en_page', page='portfolio', _external=True)
+#         ]
+#         pages.extend(dynamic_pages)
+#
+#     sitemap_xml = ['<?xml version="1.0" encoding="UTF-8"?>']
+#     sitemap_xml.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
+#
+#     for page in pages:
+#         sitemap_xml.append(f"<url><loc>{page}</loc></url>")
+#
+#     sitemap_xml.append('</urlset>')
+#     sitemap_xml = "\n".join(sitemap_xml)
+#
+#     return Response(sitemap_xml, mimetype='application/xml')
+
 @app.route('/sitemap.xml', methods=['GET'])
 def sitemap():
     pages = []
     with app.test_request_context():
         # Aggiungi solo le pagine esistenti
         static_pages = [
-            url_for('home', _external=True),
-            url_for('it_home', _external=True),
-            url_for('en_home', _external=True)
+            url_for('home', _external=True, _scheme='https', _server='patriziobuonaiuto.vercel.app'),
+            url_for('it_home', _external=True, _scheme='https', _server='patriziobuonaiuto.vercel.app'),
+            url_for('en_home', _external=True, _scheme='https', _server='patriziobuonaiuto.vercel.app')
         ]
         pages.extend(static_pages)
 
         # Aggiungi le pagine dinamiche esistenti
         dynamic_pages = [
-            url_for('it_page', page='contact', _external=True),
-            url_for('it_page', page='portfolio', _external=True),
-            url_for('it_page', page='su-di-me', _external=True),
-            url_for('en_page', page='contact', _external=True),
-            url_for('en_page', page='about-me', _external=True),
-            url_for('en_page', page='portfolio', _external=True)
+            url_for('it_page', page='contact', _external=True, _scheme='https', _server='patriziobuonaiuto.vercel.app'),
+            url_for('it_page', page='portfolio', _external=True, _scheme='https', _server='patriziobuonaiuto.vercel.app'),
+            url_for('it_page', page='su-di-me', _external=True, _scheme='https', _server='patriziobuonaiuto.vercel.app'),
+            url_for('en_page', page='contact', _external=True, _scheme='https', _server='patriziobuonaiuto.vercel.app'),
+            url_for('en_page', page='about-me', _external=True, _scheme='https', _server='patriziobuonaiuto.vercel.app'),
+            url_for('en_page', page='portfolio', _external=True, _scheme='https', _server='patriziobuonaiuto.vercel.app')
         ]
         pages.extend(dynamic_pages)
 
