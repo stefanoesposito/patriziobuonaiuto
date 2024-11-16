@@ -1,7 +1,14 @@
 from flask import Flask, render_template, request, redirect, url_for, Response
+import os
 
 app = Flask(__name__)
 app.config['TEMPLATES_AUTO_RELOAD'] = True
+
+# Configurazione per il dominio di produzione
+if os.getenv('FLASK_ENV') == 'production':
+    app.config['SERVER_NAME'] = 'patriziobuonaiuto.vercel.app'
+    app.config['PREFERRED_URL_SCHEME'] = 'https'
+
 
 def get_best_language():
     # Ottiene l'header 'Accept-Language' e lo divide in una lista di preferenze.
@@ -25,7 +32,6 @@ def get_best_language():
     return 'en'
 
 
-
 @app.route('/')
 def home():
     best_lang = get_best_language()
@@ -42,11 +48,20 @@ def en_home():
 
 @app.route('/it/<page>')
 def it_page(page):
-    return render_template(f'it/{page}.html')
+    # Verifica che il file esista, altrimenti restituisce un 404
+    try:
+        return render_template(f'it/{page}.html')
+    except:
+        return "Pagina non trovata", 404
 
 @app.route('/en/<page>')
 def en_page(page):
-    return render_template(f'en/{page}.html')
+    # Verifica che il file esista, altrimenti restituisce un 404
+    try:
+        return render_template(f'en/{page}.html')
+    except:
+        return "Page not found", 404
+
 
 @app.route('/sitemap.xml', methods=['GET'])
 def sitemap():
@@ -94,4 +109,7 @@ def robots():
     return Response(robots_txt, mimetype='text/plain')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    if not app.config.get('SERVER_NAME'):
+        app.run(debug=True, host='0.0.0.0')
+    else:
+        app.run(debug=False)
