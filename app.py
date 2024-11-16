@@ -7,7 +7,7 @@ app.config['TEMPLATES_AUTO_RELOAD'] = True
 # Configurazione per il dominio di produzione
 if os.getenv('FLASK_ENV') == 'production':
     app.config['SERVER_NAME'] = 'patriziobuonaiuto.vercel.app'
-    app.config['PREFERRED_URL_SCHEME'] = 'https'
+#     app.config['PREFERRED_URL_SCHEME'] = 'https'
 
 
 def get_best_language():
