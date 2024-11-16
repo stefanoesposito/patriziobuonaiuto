@@ -99,26 +99,18 @@ def en_page(page):
 
 @app.route('/sitemap.xml', methods=['GET'])
 def sitemap():
-    pages = []
-    with app.test_request_context():
-        # Aggiungi solo le pagine esistenti
-        static_pages = [
-            url_for('home', _external=True, _scheme='https', _server='patriziobuonaiuto.vercel.app'),
-            url_for('it_home', _external=True, _scheme='https', _server='patriziobuonaiuto.vercel.app'),
-            url_for('en_home', _external=True, _scheme='https', _server='patriziobuonaiuto.vercel.app')
-        ]
-        pages.extend(static_pages)
-
-        # Aggiungi le pagine dinamiche esistenti
-        dynamic_pages = [
-            url_for('it_page', page='contact', _external=True, _scheme='https', _server='patriziobuonaiuto.vercel.app'),
-            url_for('it_page', page='portfolio', _external=True, _scheme='https', _server='patriziobuonaiuto.vercel.app'),
-            url_for('it_page', page='su-di-me', _external=True, _scheme='https', _server='patriziobuonaiuto.vercel.app'),
-            url_for('en_page', page='contact', _external=True, _scheme='https', _server='patriziobuonaiuto.vercel.app'),
-            url_for('en_page', page='about-me', _external=True, _scheme='https', _server='patriziobuonaiuto.vercel.app'),
-            url_for('en_page', page='portfolio', _external=True, _scheme='https', _server='patriziobuonaiuto.vercel.app')
-        ]
-        pages.extend(dynamic_pages)
+    base_url = 'https://patriziobuonaiuto.vercel.app'
+    pages = [
+        f"{base_url}/",
+        f"{base_url}/it/",
+        f"{base_url}/en/",
+        f"{base_url}/it/contact",
+        f"{base_url}/it/portfolio",
+        f"{base_url}/it/su-di-me",
+        f"{base_url}/en/contact",
+        f"{base_url}/en/about-me",
+        f"{base_url}/en/portfolio"
+    ]
 
     sitemap_xml = ['<?xml version="1.0" encoding="UTF-8"?>']
     sitemap_xml.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
