@@ -105,6 +105,11 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ url_for('it_page', page='contact') }}">Contatti</a>
                                 </li>
+                                <li>
+                                    <a href="https://www.facebook.com/profile.php?id=61577314981843">
+                                        <img class="fb-logo-header" src="{{ url_for('static', filename='img/core-img/fb.png') }}" alt="">
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </nav>
@@ -130,8 +135,14 @@
                         <img src="{{ url_for('static', filename='img/core-img/pat-footer.png') }}" style="width: 120px;"
                              alt="Patrizio Buonaiuto Logo">
                     </div>
-                    <!-- Single Footer Content -->
                     <div class="footer-contacts">
+                        <!-- Single Footer Content -->
+                        <div class="single-footer-content">
+                            <a href="https://www.facebook.com/profile.php?id=61577314981843">
+                                <img class="fb-logo" src="{{ url_for('static', filename='img/core-img/fb.png') }}" alt="">
+                            </a>
+                        </div>
+                        <!-- Single Footer Content -->
                         <div class="single-footer-content">
                             <img src="{{ url_for('static', filename='img/core-img/smartphone.png') }}" alt="">
                             <a href="tel:00393389333810">+39 338 9333 810</a>

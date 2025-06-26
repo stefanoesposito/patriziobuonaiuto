@@ -7,3 +7,12 @@
     justify-content: flex-start;
     gap: 16px;
 }
+
+.fb-logo-header {
+    width: 24px;
+    margin-left: 12px;
+}
+
+.fb-logo {
+    width: 32px;
+}
