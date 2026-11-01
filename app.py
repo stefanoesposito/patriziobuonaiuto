@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, Response
+from flask import Flask, render_template, request, redirect, url_for, Response, send_from_directory
 import os
 
 app = Flask(__name__)
@@ -30,6 +30,12 @@ def get_best_language():
     # Se nessuna delle preferenze è supportata, default a inglese.
     print("Nessuna delle preferenze linguistiche è supportata, default a inglese")
     return 'en'
+
+
+# Standalone design prototype, only added on the feature branch.
+@app.route('/concept/immersive-gallery')
+def immersive_gallery_concept():
+    return send_from_directory('static/concept', 'immersive-gallery.html')
 
 
 @app.route('/')
