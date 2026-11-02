@@ -60,3 +60,9 @@ Per futuri aggiornamenti del codice ripetere gli override sopra e la verifica pr
 Il confronto Adele Bloch-Bauer I usa due livelli ritagliati e registrati nello stesso riquadro. La maschera del cursore agisce sul livello intero, senza ridimensionare le immagini durante il trascinamento. Il ritaglio è calibrato per le due fotografie attuali; se si sostituiscono le immagini in Sanity va ricontrollato.
 
 L’anteprima delle bozze è predisposta ma richiede un token server-only `SANITY_API_READ_TOKEN` e la configurazione del Presentation Tool. Non inserire token in variabili `NEXT_PUBLIC_`. La pubblicazione ordinaria delle opere funziona senza questo token.
+
+## Anteprime di condivisione
+
+La home e le pagine senza una foto specifica usano le card italiane/inglesi `web/public/og/patrizio-buonaiuto-{it,en}.jpg` (1200×630). Schede opera, lavorazioni e pagine con foto mantengono l’immagine del relativo contenuto. Open Graph e Twitter/X dichiarano URL assoluti e testi alternativi.
+
+Le card sono file pubblici versionati con il sito, non richiedono upload manuali in Sanity. Per ricrearle dalla fotografia corretta del ritratto, senza generazione o ritocchi dei dettagli: `node scripts/create-social-card.cjs /percorso/fotografia-corretta.png`. Il ritaglio è solo per la card e non modifica il Before/After o gli asset Sanity.
