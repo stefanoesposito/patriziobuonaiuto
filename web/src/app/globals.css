@@ -455,30 +455,89 @@ h2 {
   }
   .mobile-menu {
     display: block;
-    font:
-      12px Arial,
-      sans-serif;
   }
-  .mobile-menu summary {
+  .mobile-menu-toggle,
+  .mobile-menu-close {
     min-height: 44px;
-    display: flex;
+    min-width: 44px;
+    display: inline-flex;
     align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 8px 0;
+    border: 0;
+    color: inherit;
+    background: transparent;
+    font: 14px/1.4 Arial, sans-serif;
   }
-  .mobile-menu nav {
-    position: absolute;
-    top: 72px;
-    left: 0;
-    right: 0;
-    padding: 24px;
-    background: #211c16;
-    border-bottom: 1px solid #665337;
+  .mobile-menu-dialog {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    max-width: none;
+    height: 100vh;
+    height: 100dvh;
+    max-height: none;
+    margin: 0;
+    border: 0;
+    padding: max(20px, env(safe-area-inset-top))
+      max(24px, env(safe-area-inset-right))
+      max(24px, env(safe-area-inset-bottom))
+      max(24px, env(safe-area-inset-left));
+    color: #f2e8d8;
+    background: radial-gradient(ellipse at 80% 65%, #2b241b, #14120f 80%);
+    overflow: auto;
+    overscroll-behavior: contain;
+  }
+  .mobile-menu-dialog[open] {
     display: flex;
     flex-direction: column;
-    gap: 4px;
   }
-  .mobile-menu nav a {
-    padding: 16px;
+  .mobile-menu-dialog::backdrop {
+    background: #14120f;
+  }
+  .mobile-menu-header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    background: #14120ff5;
+  }
+  .mobile-menu-close span {
+    font-size: 27px;
+    line-height: 1;
+    font-weight: 300;
+  }
+  .mobile-menu-links {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: clamp(12px, 3svh, 30px);
+    padding: 40px 0;
+  }
+  .mobile-menu-links a {
+    display: inline-block;
+    padding: 8px 0;
+    font: clamp(34px, 7vw, 52px)/1.15 Georgia, "Times New Roman", serif;
+    letter-spacing: -0.035em;
     text-decoration: none;
+  }
+  .mobile-menu-links a:hover,
+  .mobile-menu-links a:focus-visible {
+    color: #d6b37f;
+  }
+  .mobile-menu-links a[lang] {
+    margin-top: 20px;
+    padding: 16px 0;
+    border-top: 1px solid #665337;
+    font: 16px/1.4 Arial, sans-serif;
+    letter-spacing: 0.14em;
+    color: #d6b37f;
   }
   .hero h1 {
     font-size: clamp(55px, 14vw, 95px);

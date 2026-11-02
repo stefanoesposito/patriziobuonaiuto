@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getContent } from "@/lib/content";
 import type { Lang } from "@/lib/types";
+import { MobileMenu } from "@/components/MobileMenu";
 export default async function Layout({
   children,
   params,
@@ -46,12 +47,9 @@ export default async function Layout({
           >
             {menu}
           </nav>
-          <details className="mobile-menu">
-            <summary>Menu</summary>
-            <nav aria-label={it ? "Navigazione mobile" : "Mobile navigation"}>
-              {menu}
-            </nav>
-          </details>
+          <MobileMenu lang={lang} name={settings.name}>
+            {menu}
+          </MobileMenu>
         </header>
         <main id="main">{children}</main>
         <footer className="site-footer">
