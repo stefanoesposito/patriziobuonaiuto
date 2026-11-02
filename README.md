@@ -51,8 +51,12 @@ Il comando è in sola lettura. L’importazione reale richiede un’intenzione e
 
 ## Preview e rilascio
 
-Il progetto Vercel esistente serve ancora Flask dalla radice. Per la preview Next.js usare **solo override del singolo deployment**: root `web`, framework `nextjs`, install `cd .. && npm ci`, build `npm run build`, output `.next`, source files outside root abilitato. Non cambiare la root globale del progetto e non usare target production.
+Le impostazioni globali del progetto Vercel restano quelle storiche Flask. Per i deployment Next.js usare **override del singolo deployment**: root `web`, framework `nextjs`, install `cd .. && npm ci --no-audit --no-fund`, build `npm run build`, output automatico (`null`), source files outside root abilitato e Node 24. Il branch del nuovo sito è `feat/sanity-site`; main resta invariato.
 
-`SITE_URL` è il dominio canonico; impostarlo prima del rilascio definitivo. Preview e sviluppo sono noindex. Il rilascio richiede un successivo controllo editoriale, la scelta esplicita del passaggio in produzione e la verifica di tutti gli URL del vecchio sito.
+Il rilascio autorizzato usa lo stesso commit verificato in preview, con target `production`. Dominio canonico (`SITE_URL`, con default corrispondente): `https://patriziobuonaiuto.vercel.app`. Preview e sviluppo sono noindex; la produzione abilita l’indicizzazione delle pagine revisionate. Le opere ancora marcate da revisionare restano escluse dalla sitemap e noindex.
+
+Per futuri aggiornamenti del codice ripetere gli override sopra e la verifica prima di promuovere/pubblicare: un normale deployment dalla radice o da main usa ancora il vecchio sito Flask. Le modifiche ai contenuti pubblicati in Sanity non richiedono deployment del codice.
+
+Il confronto Adele Bloch-Bauer I usa due livelli ritagliati e registrati nello stesso riquadro. La maschera del cursore agisce sul livello intero, senza ridimensionare le immagini durante il trascinamento. Il ritaglio è calibrato per le due fotografie attuali; se si sostituiscono le immagini in Sanity va ricontrollato.
 
 L’anteprima delle bozze è predisposta ma richiede un token server-only `SANITY_API_READ_TOKEN` e la configurazione del Presentation Tool. Non inserire token in variabili `NEXT_PUBLIC_`. La pubblicazione ordinaria delle opere funziona senza questo token.

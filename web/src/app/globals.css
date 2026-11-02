@@ -211,13 +211,28 @@ h2 {
   overflow: hidden;
   box-shadow: 0 20px 80px #0009;
 }
-.compare img {
+.compare-layer {
   position: absolute;
   inset: 0;
+  overflow: hidden;
+}
+.compare img {
+  position: absolute;
+  max-width: none;
+  height: auto;
   width: 100%;
-  height: 100%;
-  object-fit: contain;
-  background: #15110e;
+}
+/* Register the square Klimt canvas against the photographed portrait.
+   Clip the full-size layers, so moving the slider never rescales either image. */
+.compare-original img {
+  width: 142%;
+  left: -23%;
+  top: -0.5%;
+}
+.compare .after img {
+  width: 104%;
+  left: -2%;
+  top: -3.3%;
 }
 .compare .after {
   clip-path: inset(0 0 0 var(--split));

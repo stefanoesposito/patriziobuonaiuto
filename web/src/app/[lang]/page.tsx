@@ -107,11 +107,6 @@ export default async function Home({
             }
             lang={lang}
           />
-          <p className="small">
-            {it
-              ? "Le fotografie conservano le loro inquadrature originali."
-              : "Photographs retain their original framing."}
-          </p>
         </section>
       )}
       <section className="story section-pad">

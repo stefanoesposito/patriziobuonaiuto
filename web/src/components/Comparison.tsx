@@ -12,7 +12,7 @@ export function Comparison({
   credit: string;
   lang: Lang;
 }) {
-  const [split, setSplit] = useState(50);
+  const [split, setSplit] = useState(63);
   const it = lang === "it";
   return (
     <>
@@ -20,17 +20,20 @@ export function Comparison({
         className="compare"
         style={{ "--split": `${split}%` } as React.CSSProperties}
       >
-        <img src={original} alt={credit} loading="lazy" />
-        <img
-          className="after"
-          src={after}
-          alt={
-            it
-              ? "Ritratto personalizzato dipinto da Patrizio Buonaiuto"
-              : "Personalised portrait painted by Patrizio Buonaiuto"
-          }
-          loading="lazy"
-        />
+        <div className="compare-layer compare-original">
+          <img src={original} alt={credit} loading="lazy" />
+        </div>
+        <div className="compare-layer after">
+          <img
+            src={after}
+            alt={
+              it
+                ? "Ritratto personalizzato dipinto da Patrizio Buonaiuto"
+                : "Personalised portrait painted by Patrizio Buonaiuto"
+            }
+            loading="lazy"
+          />
+        </div>
         <div className="compare-line" aria-hidden="true">
           <span>↔</span>
         </div>
