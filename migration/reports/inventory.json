@@ -1,0 +1,1276 @@
+{
+  "sourceCommit": "3fb43f986338aa266f25eac68d2fc557aac5c85e",
+  "pages": [
+    {
+      "key": "home-it",
+      "kind": "home",
+      "language": "it",
+      "title": "La Copia d'Autore",
+      "paragraphs": [
+        "La Copia d'Autore è una riproduzione contemporanea di un celebre dipinto del passato.",
+        "È il risultato di un lavoro artigianale, interamente eseguito a mano da un pittore professionista.",
+        "È un'opera d'arte realizzata con colori ad olio, tele o tavole invecchiate, eseguito nel rispetto della maniera e tecniche originali. Essa è il frutto di un serio e meticoloso lavoro di ricerca e di preparazione che sta dietro il dipinto finito.",
+        "La Copia d'autore rende godibile e familiare ciò che è patrimonio esclusivo di musei o di pochi privilegiati."
+      ],
+      "images": [],
+      "legacyUrl": "/it/"
+    },
+    {
+      "key": "about-it",
+      "kind": "about",
+      "language": "it",
+      "title": "Patrizio Buonaiuto",
+      "paragraphs": [
+        "Patrizio Buonaiuto nasce a Napoli nel 1968, nel 1990/91 si diploma in Pittura all'Accademia Belle Arti di Napoli e da allora inizia un'intensa attività pittorica che lo porta ad esporre proprie opere in numerose mostre collettive.",
+        "Dal 1992 comincia a specializzarsi nella \"Riproduzione d'Autore\" ossia la riproduzione fedele di opere del passato ed ad esporre in numerose città italiane per i principali galleristi del settore, tra i quali \"Le Musee imaginaire\", \"Euromedia\" e \"La Galleria dei Sogni\". La particolarità che lo distingue dalla maggior parte dei pittori che si dedicano alle riproduzioni è la sua incredibile versatilità, le sue conoscenze tecniche gli permettono infatti la riproduzione di qualsiasi opera di pittura, dai classici agli impressionisti, fino ai capolavori moderni, rispettando le forme e i modi della tecnica originaria.",
+        "Ha realizzato negli anni lavori ad olio e trompe l'oeil per importanti negozi e ristoranti di Napoli tra i quali: Marinella, Sartoria Sabino, Ristorante \"Zi' Teresa\", \"La Cantinella\" etc.",
+        "Ha collaborato inoltre con importanti gallerie di Londra tra le quali la \"Alexander Miles Gallery\" per le quali ha esposto e venduto diverse opere originali."
+      ],
+      "images": [
+        "/static/img/core-img/patrizio-buonaiuto-painting-klimt.jpg",
+        "/static/img/core-img/patrizio-buonaiuto-esposizione-casina-pompeiana.jpg"
+      ],
+      "legacyUrl": "/it/su-di-me"
+    },
+    {
+      "key": "contact-it",
+      "kind": "contact",
+      "language": "it",
+      "title": "Mettiti in Contatto con Patrizio Buonaiuto",
+      "paragraphs": [
+        "Sei affascinato dall'arte di Patrizio Buonaiuto? Hai domande, commenti o un progetto speciale in mente? Ci piacerebbe sentirti!",
+        "Che tu sia un appassionato d'arte, un proprietario di galleria o semplicemente curioso, il tuo contatto è importante per noi."
+      ],
+      "images": [],
+      "legacyUrl": "/it/contact"
+    },
+    {
+      "key": "home-en",
+      "kind": "home",
+      "language": "en",
+      "title": "Fine Art Reproduction",
+      "paragraphs": [
+        "An Art Replica is a contemporary reproduction of a famous painting from the past.",
+        "It is the result of artisanal work, entirely executed by hand by a professional painter.",
+        "It is a work of art made with oil paints on aged canvases or panels, crafted in accordance with the original methods and techniques. It is the outcome of serious and meticulous research and preparation that goes into the finished painting.",
+        "A Fine Art Reproduction allows for the enjoyment and familiarity of what is typically the exclusive heritage of museums or a select few."
+      ],
+      "images": [],
+      "legacyUrl": "/en/"
+    },
+    {
+      "key": "about-en",
+      "kind": "about",
+      "language": "en",
+      "title": "Patrizio Buonaiuto",
+      "paragraphs": [
+        "Patrizio Buonaiuto was born in Naples in 1968. In 1990/91, he graduated in Painting from the Academy of Fine Arts of Naples and since then has embarked on an intense painting career, exhibiting his works in numerous group exhibitions.",
+        "Since 1992, he began to specialize in \"Author Reproduction,\" which is the faithful reproduction of past works, and exhibited in numerous Italian cities for leading gallery owners in the field, including \"Le Musee imaginaire,\" \"Euromedia,\" and \"La Galleria dei Sogni.\" What sets him apart from most painters who engage in reproductions is his incredible versatility. His technical knowledge allows him to reproduce any painting, from classics to impressionists, to modern masterpieces, respecting the forms and methods of the original technique.",
+        "Over the years, he has created oil works and trompe l'oeil for important shops and restaurants in Naples, including: Marinella, Sartoria Sabino, Ristorante \"Zi' Teresa,\" \"La Cantinella,\" etc.",
+        "He has also collaborated with important galleries in London, including the \"Alexander Miles Gallery,\" for which he has exhibited and sold several original works."
+      ],
+      "images": [
+        "/static/img/core-img/patrizio-buonaiuto-painting-klimt.jpg",
+        "/static/img/core-img/patrizio-buonaiuto-esposizione-casina-pompeiana.jpg"
+      ],
+      "legacyUrl": "/en/about-me"
+    },
+    {
+      "key": "contact-en",
+      "kind": "contact",
+      "language": "en",
+      "title": "Get in Touch with Patrizio Buonaiuto",
+      "paragraphs": [
+        "Are you captivated by the artistry of Patrizio Buonaiuto? Do you have questions, comments, or a special project in mind? We'd love to hear from you!",
+        "Whether you're an art enthusiast, a gallery owner, or simply curious, your connection matters to us."
+      ],
+      "images": [],
+      "legacyUrl": "/en/contact"
+    }
+  ],
+  "portfolioItems": [
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-affresco.jpeg",
+      "image": "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-affresco.jpeg",
+      "categories": [
+        "portraits"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-caravaggio-bacco.png",
+      "image": "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-caravaggio-bacco.png",
+      "categories": [
+        "art-replicas"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-salvator-mundi-leonardo-da-vinci.jpeg",
+      "image": "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-salvator-mundi-leonardo-da-vinci.jpeg",
+      "categories": [
+        "art-replicas"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-angelo-musicante-rosso-fiorentino.jpg",
+      "image": "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-angelo-musicante-rosso-fiorentino.jpg",
+      "categories": [
+        "art-replicas"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-campo-di-papaveri-c-monet.jpeg",
+      "image": "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-campo-di-papaveri-c-monet.jpeg",
+      "categories": [
+        "art-replicas"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-denittis.png",
+      "image": "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-denittis.png",
+      "categories": [
+        "art-replicas"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/portfolio-patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-gustav-klimt-personal-portrait.png",
+      "image": "/static/img/bg-img/portfolio-patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-gustav-klimt-personal-portrait.png",
+      "categories": [
+        "art-replicas",
+        "portraits"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-klimt-bacio.jpeg",
+      "image": "/static/img/bg-img/portfolio-patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-klimt-bacio.jpeg",
+      "categories": [
+        "art-replicas"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-iris-van-gogh.png",
+      "image": "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-iris-van-gogh.png",
+      "categories": [
+        "art-replicas"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-leonardo-da-vinci-monnalisa.jpg",
+      "image": "/static/img/bg-img/portfolio-patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-leonardo-da-vinci-monnalisa.jpeg",
+      "categories": [
+        "art-replicas"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-munch-urlo.jpg",
+      "image": "/static/img/bg-img/portfolio-patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-munch-urlo.jpeg",
+      "categories": [
+        "art-replicas"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-1.jpeg",
+      "image": "/static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-1.jpeg",
+      "categories": [
+        "originals"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-2.jpg",
+      "image": "/static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-2.jpg",
+      "categories": [
+        "originals"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-3.jpg",
+      "image": "/static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-3.jpg",
+      "categories": [
+        "originals"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-4.jpg",
+      "image": "/static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-4.jpg",
+      "categories": [
+        "originals"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-5.jpg",
+      "image": "/static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-5.jpg",
+      "categories": [
+        "originals"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-6.jpg",
+      "image": "/static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-6.jpg",
+      "categories": [
+        "originals"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-7.jpg",
+      "image": "/static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-7.jpg",
+      "categories": [
+        "originals"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-woman-at-her-toilet-henri-de-toulouse-lautrec.jpeg",
+      "image": "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-woman-at-her-toilet-henri-de-toulouse-lautrec.jpeg",
+      "categories": [
+        "art-replicas"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil.jpg",
+      "image": "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil.jpg",
+      "categories": [
+        "trompe-l-oeil"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-inv-tela.png",
+      "image": "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-inv-tela.png",
+      "categories": [
+        "process"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-inv-telaio.png",
+      "image": "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-inv-telaio.png",
+      "categories": [
+        "process"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-1.jpeg",
+      "image": "/static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-1.jpeg",
+      "categories": [
+        "process"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-2.jpeg",
+      "image": "/static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-2.jpeg",
+      "categories": [
+        "process"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-3.jpeg",
+      "image": "/static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-3.jpeg",
+      "categories": [
+        "process"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-4.jpeg",
+      "image": "/static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-4.jpeg",
+      "categories": [
+        "process"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-5.jpeg",
+      "image": "/static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-5.jpeg",
+      "categories": [
+        "process"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-6.jpeg",
+      "image": "/static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-6.jpeg",
+      "categories": [
+        "process"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-1.jpeg",
+      "image": "/static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-1.jpeg",
+      "categories": [
+        "process"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-2.jpeg",
+      "image": "/static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-2.jpeg",
+      "categories": [
+        "process"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-3.jpeg",
+      "image": "/static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-3.jpeg",
+      "categories": [
+        "process"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-4.jpeg",
+      "image": "/static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-4.jpeg",
+      "categories": [
+        "process"
+      ]
+    },
+    {
+      "sourceKey": "img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-5.jpeg",
+      "image": "/static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-5.jpeg",
+      "categories": [
+        "process"
+      ]
+    }
+  ],
+  "artworks": 20,
+  "processProjects": 3,
+  "assets": [
+    {
+      "path": "static/img/bg-img/about-me.jpg",
+      "bytes": 471810,
+      "sha256": "0848fc6502b0a2f2fd5259fff13419596b3d581b098f3f19b62c4d5e50f1abf7"
+    },
+    {
+      "path": "static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-1.jpeg",
+      "bytes": 217811,
+      "sha256": "3a475d678b18358032bccf3f06ae0fb87a844ed9e546d88b6a1f81d7bdc1eb9e"
+    },
+    {
+      "path": "static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-2.jpg",
+      "bytes": 545321,
+      "sha256": "efd120a764be25b208524b3e7a22d5d30cd362004edd8b88745414a42cbcfa2e"
+    },
+    {
+      "path": "static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-3.jpg",
+      "bytes": 186216,
+      "sha256": "f80dfdb5299da0448b08adc8a377a0d15da0b6f611fa5cf680ec30a93df6d464"
+    },
+    {
+      "path": "static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-4.jpg",
+      "bytes": 161111,
+      "sha256": "3dd2adfa76f5a94ff0ee9ec41a52f88c087f602726aabc9e69970f8ef8da91e9"
+    },
+    {
+      "path": "static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-5.jpg",
+      "bytes": 79786,
+      "sha256": "4f52237534946b461d08ccf249ace4b7e9ae03642a7df456a19ea7a4de57989c"
+    },
+    {
+      "path": "static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-6.jpg",
+      "bytes": 512271,
+      "sha256": "91517123bb78e18e8f18bd67d612d6fe3eb83fa5403fd2c0ec1b62415ab038d7"
+    },
+    {
+      "path": "static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-7.jpg",
+      "bytes": 439991,
+      "sha256": "5da8de3149f28f7f877975290cc854cefeb99464e48b2f3d88f7027d36d8d25a"
+    },
+    {
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-affresco.jpeg",
+      "bytes": 144013,
+      "sha256": "36b23db69f5d03ea24b31769aeaf905f04a689e9ebb32d2c5d993178aa698eff"
+    },
+    {
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-angelo-musicante-rosso-fiorentino.jpg",
+      "bytes": 599519,
+      "sha256": "6746738cfe0d05b8a713388224b91f6b92d5ce9482fd5967c1839ecfc5bbf57a"
+    },
+    {
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-campo-di-papaveri-c-monet.jpeg",
+      "bytes": 362218,
+      "sha256": "cb02b7ff928e411d3e65588ab1615e38fceadbc85b0632286d8bdee04d1dd21c"
+    },
+    {
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-caravaggio-bacco.png",
+      "bytes": 420061,
+      "sha256": "2aac95d5a5f27b9abd8a018f471c2169af144a80ba158262ed1ceeeb86434ef7"
+    },
+    {
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-denittis.png",
+      "bytes": 438479,
+      "sha256": "493e70875f70de2d427b6752b6296209a360135c96f1236346bb697104a106ed"
+    },
+    {
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-gustav-klimt-personal-portrait.jpeg",
+      "bytes": 511909,
+      "sha256": "c42f95e3c41c95289c8274959a6c595b05d99d9cb4706d61626980db0855b648"
+    },
+    {
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-inv-tela.png",
+      "bytes": 481185,
+      "sha256": "adce7994f10ec7a7191cd59ff635d036e009d000ab3a943d30f6bbe761d5664f"
+    },
+    {
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-inv-telaio.png",
+      "bytes": 333947,
+      "sha256": "415fb141ebb3164e29a432ddaaae3f4b609cc60a42d278540f866a2f2356a945"
+    },
+    {
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-iris-van-gogh.png",
+      "bytes": 521042,
+      "sha256": "2556d528a0f4a27f8326cf92d579bd25a0bbad91476445e2b3e5f5efdde1d1f0"
+    },
+    {
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-klimt-bacio.jpeg",
+      "bytes": 483767,
+      "sha256": "b5b977fc4f96d83cf7171886ac80d9a2e361dff2d5e6e0d5d01afa7c8378029b"
+    },
+    {
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-leonardo-da-vinci-disegno.jpeg",
+      "bytes": 324278,
+      "sha256": "f680d7baab1c04e1171044ef9b64d0e218af9a8181298ea1df09c36e8dfcdaae"
+    },
+    {
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-leonardo-da-vinci-monnalisa.jpg",
+      "bytes": 449226,
+      "sha256": "37328ee49706a1c0125c603d84a514a682e60c7e62e65a455ded628c687d0f4c"
+    },
+    {
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-munch-urlo.jpg",
+      "bytes": 509595,
+      "sha256": "89e58ae745bbbff55feea2fb424c9457599e8340d59f50bdea4364b49448f177"
+    },
+    {
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-salvator-mundi-leonardo-da-vinci.jpeg",
+      "bytes": 142870,
+      "sha256": "c4c9cc8bb0ea317dc95c65ad5e8578ea95bbde97a9074c31f19172a4630f52a3"
+    },
+    {
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-woman-at-her-toilet-henri-de-toulouse-lautrec.jpeg",
+      "bytes": 388910,
+      "sha256": "01bd9fe7db16746f6e04f0789dc5ed85afa90919d7b8d41b750dff8c906d6d11"
+    },
+    {
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil.jpg",
+      "bytes": 357546,
+      "sha256": "0995dffd13fe431a3bff6a307d7bd20ea863b2e8f76ec067a443bbd51c68564b"
+    },
+    {
+      "path": "static/img/bg-img/portfolio-patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-gustav-klimt-personal-portrait.png",
+      "bytes": 6332508,
+      "sha256": "8cfa245ba336e0b5beb08ac816be81b36dfe7e9639163ed7efa6bda462f5d5f4"
+    },
+    {
+      "path": "static/img/bg-img/portfolio-patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-klimt-bacio.jpeg",
+      "bytes": 2735584,
+      "sha256": "0893a65d9f2915931c18abb4ace9b29a013d1af73073a30e47fdba8c483b75a7"
+    },
+    {
+      "path": "static/img/bg-img/portfolio-patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-leonardo-da-vinci-monnalisa.jpeg",
+      "bytes": 3711997,
+      "sha256": "dd59ed99efbfefc30ce6220cceeae12db8543a6afb6c007676807d2125328454"
+    },
+    {
+      "path": "static/img/bg-img/portfolio-patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-munch-urlo.jpeg",
+      "bytes": 2710079,
+      "sha256": "36534c1c5222d726acce3193de38a81780dad0aeb8e42ef4bf701f40f660294c"
+    },
+    {
+      "path": "static/img/bg-img/portfolio-patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-van-gogh-iris.jpeg",
+      "bytes": 2761404,
+      "sha256": "9398050668b65108ba8810bda25d95e96ab59bc39cd399a8769b7a63f9759da5"
+    },
+    {
+      "path": "static/img/bg-img/portfolio-patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-woman-at-her-toilet-henri-de-toulouse-lautrec.jpeg",
+      "bytes": 2654170,
+      "sha256": "2e9619d26c3a55c7a71c4cd218b278341eb5f891e97357b850dbec49e3648645"
+    },
+    {
+      "path": "static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-1.jpeg",
+      "bytes": 502284,
+      "sha256": "3b9bdd4f53293ffda0a68095df593cbe4be78ec60e93601177395df24d058d2d"
+    },
+    {
+      "path": "static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-2.jpeg",
+      "bytes": 2850213,
+      "sha256": "c913196977b976df1ff4d6fbbe4a6fcfd6e7e4ea980964dfd9753386b44ec1d1"
+    },
+    {
+      "path": "static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-3.jpeg",
+      "bytes": 500471,
+      "sha256": "3d7954192bf4caaeadc5d27c16eced748c6473a68fb3beba1cfe95359b735c2e"
+    },
+    {
+      "path": "static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-4.jpeg",
+      "bytes": 2566768,
+      "sha256": "27eac2e4f63cf3d1d111a8f02f0b64f44cd13528bf949d43da4748df730602f9"
+    },
+    {
+      "path": "static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-5.jpeg",
+      "bytes": 491072,
+      "sha256": "0249d3e862c600ed5b69d8d9c05d7a55c478ee0a598938cbe7909935a46431ca"
+    },
+    {
+      "path": "static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-6.jpeg",
+      "bytes": 507626,
+      "sha256": "b6f9ca433929a20dd1aaacf9bb71b7ae06669f654d3bddaa5589b57092fc5937"
+    },
+    {
+      "path": "static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-1.jpeg",
+      "bytes": 2679056,
+      "sha256": "4270495f958f62c4f3815c41783544e554796a09d706701d0beeb36d2867538d"
+    },
+    {
+      "path": "static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-2.jpeg",
+      "bytes": 2863733,
+      "sha256": "4930e45349905b4386622978499ec033c88139e075132657b0aff82a672f06ab"
+    },
+    {
+      "path": "static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-3.jpeg",
+      "bytes": 2812866,
+      "sha256": "e8a68e864dc4ea8d8002da1d5d5d5b7a9133e968dfd344596264067aaa617825"
+    },
+    {
+      "path": "static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-4.jpeg",
+      "bytes": 492674,
+      "sha256": "00c142e0d70e75ce52866571bad98cd6f168cf669e98156c7c616a53ae63b030"
+    },
+    {
+      "path": "static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-5.jpeg",
+      "bytes": 2822144,
+      "sha256": "5175a78c23d2e585327363712088084d4936d1370c9901baa37faf1ac3cbc1c2"
+    },
+    {
+      "path": "static/img/core-img/active.png",
+      "bytes": 501,
+      "sha256": "8cc807784569c42edeb7449f54a5e43c3bef3a810e55ca2684e7562bb67fd49f"
+    },
+    {
+      "path": "static/img/core-img/envelope-2.png",
+      "bytes": 783,
+      "sha256": "8887ef45b172792be456bcdf6a397c566b5b1cbdac62376ccd67d4e836c6c94f"
+    },
+    {
+      "path": "static/img/core-img/envelope.png",
+      "bytes": 12115,
+      "sha256": "05ca9ae0ce1f975b54902b9d338a5fd23512683f06ffb1b46f75a54a73c85c1e"
+    },
+    {
+      "path": "static/img/core-img/favicon.ico",
+      "bytes": 15406,
+      "sha256": "6ab22b6e048d1100428077b274b2fa30328b34c1fcb3850d21c557f826519049"
+    },
+    {
+      "path": "static/img/core-img/favorite.png",
+      "bytes": 1710,
+      "sha256": "653319f13c461e30c9351b7425807993508d3cd8909897d2ecc2f05fa7e4e259"
+    },
+    {
+      "path": "static/img/core-img/fb.png",
+      "bytes": 14805,
+      "sha256": "27066a09f85b294b60a35a833bc586ed106fb5443fa2667bc9c2d29bd6a76f6b"
+    },
+    {
+      "path": "static/img/core-img/flag-italy.png",
+      "bytes": 125,
+      "sha256": "529a98158fc38f9701d1aa23fcef012fae050416137fa16c256a2fff77b87364"
+    },
+    {
+      "path": "static/img/core-img/flag-uk.png",
+      "bytes": 1263,
+      "sha256": "de2954a00f660a32e47d76e73c4d165d230cacc0f51a252e25ab16cf4d148ff5"
+    },
+    {
+      "path": "static/img/core-img/gallery.png",
+      "bytes": 1393,
+      "sha256": "525adc8d827be09d1feed61b761d225452047bc0316e73a29b4893287ce1601e"
+    },
+    {
+      "path": "static/img/core-img/heart.png",
+      "bytes": 1073,
+      "sha256": "73dd013f6392dbf1a313d63c9a1078d290f1df9db8bb41157e479a5f922e44d5"
+    },
+    {
+      "path": "static/img/core-img/lang-icon.png",
+      "bytes": 23396,
+      "sha256": "e4822c1cadabcefa15333d0cc96b50ef9c345af5b7391abcb6e637fb4720acdc"
+    },
+    {
+      "path": "static/img/core-img/logo-icon-2.png",
+      "bytes": 497,
+      "sha256": "512997ac5fff282198acfb321a23174501aec207d883806bae0bf9cec796155d"
+    },
+    {
+      "path": "static/img/core-img/logo-icon-4.png",
+      "bytes": 497,
+      "sha256": "b5d00d8841fbe5f223bf503593ca092f4acb3fbf5005a74ad09bbde6ee6d0518"
+    },
+    {
+      "path": "static/img/core-img/logo-icon.png",
+      "bytes": 565,
+      "sha256": "137ccbba35717fe40cec3dc04002f48b37ea2148c187127911cc2a4300539220"
+    },
+    {
+      "path": "static/img/core-img/logo.png",
+      "bytes": 1881,
+      "sha256": "c440b00cdc5fb00966a4150478c0470780185a83215789600c899033ed7dc8e4"
+    },
+    {
+      "path": "static/img/core-img/map.png",
+      "bytes": 856,
+      "sha256": "732eee615b3097fc23f8b89ded0dfa71d88b2dae5a8405be06d539ef75bb2a1a"
+    },
+    {
+      "path": "static/img/core-img/pat-buonaiuto-logo.png",
+      "bytes": 97829,
+      "sha256": "35105db7c0eece0aa1c8030c2cb6b5c2b4ff9ca03d4ca6eef1930577f3158972"
+    },
+    {
+      "path": "static/img/core-img/pat-footer.png",
+      "bytes": 71534,
+      "sha256": "e9c2935fb438291da773b9f5261438fee2e6b35e993bf98175eca24762f5d7cf"
+    },
+    {
+      "path": "static/img/core-img/patrizio-buonaiuto-esposizione-casina-pompeiana.jpg",
+      "bytes": 122522,
+      "sha256": "e030066a5bcbe05ce7ec1d852a50269be0aa15d8376083483cfc6171e37b30f6"
+    },
+    {
+      "path": "static/img/core-img/patrizio-buonaiuto-painting-klimt.jpg",
+      "bytes": 698003,
+      "sha256": "886cfccf9511e7fc331c7aec885cef5ac3b19e8523fd52869614c97e76c48cc9"
+    },
+    {
+      "path": "static/img/core-img/photo-camera-2.png",
+      "bytes": 1548,
+      "sha256": "eba6bc5b57df50acbc406d436e6f8bb828aa9c26c9aa9e9fac76a290d3320935"
+    },
+    {
+      "path": "static/img/core-img/photo-camera.png",
+      "bytes": 1037,
+      "sha256": "16d788864dc7ee7b6100efd7a5d55323161208d674b3a2645e9bd595696e1a06"
+    },
+    {
+      "path": "static/img/core-img/preloader.png",
+      "bytes": 2045,
+      "sha256": "8ed3703cab1d0b86cbc1889b517688c47d209c69897c311037e85c9def8d9a51"
+    },
+    {
+      "path": "static/img/core-img/rocket-launch.png",
+      "bytes": 1687,
+      "sha256": "f6b7feebb8f77b889a22b228158bed9f560fddac4418dbaaf36c605a0f275739"
+    },
+    {
+      "path": "static/img/core-img/search.png",
+      "bytes": 540,
+      "sha256": "632e380093ef60c54a2db4983025268e84883543737fd410a3d1dd0778abb288"
+    },
+    {
+      "path": "static/img/core-img/smartphone.png",
+      "bytes": 497,
+      "sha256": "6e0d9eafa1b9bb70756dd35b2954232439602251b89cc6a7808e2bcd5dde0088"
+    },
+    {
+      "path": "static/img/core-img/video-camera.png",
+      "bytes": 662,
+      "sha256": "21e4a54bcf214cf775bb178df12c4b21ba64742a0095528d9297a61d5b8a62a2"
+    }
+  ],
+  "references": [
+    {
+      "template": "templates/en/about-me.html",
+      "path": "static/img/core-img/patrizio-buonaiuto-esposizione-casina-pompeiana.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/about-me.html",
+      "path": "static/img/core-img/patrizio-buonaiuto-painting-klimt.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/base.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-gustav-klimt-personal-portrait.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/base.html",
+      "path": "static/img/core-im",
+      "exists": false
+    },
+    {
+      "template": "templates/en/base.html",
+      "path": "static/img/core-img/envelope-2.png",
+      "exists": true
+    },
+    {
+      "template": "templates/en/base.html",
+      "path": "static/img/core-img/fb.png",
+      "exists": true
+    },
+    {
+      "template": "templates/en/base.html",
+      "path": "static/img/core-img/flag-italy.png",
+      "exists": true
+    },
+    {
+      "template": "templates/en/base.html",
+      "path": "static/img/core-img/flag-uk.png",
+      "exists": true
+    },
+    {
+      "template": "templates/en/base.html",
+      "path": "static/img/core-img/lang-icon.png",
+      "exists": true
+    },
+    {
+      "template": "templates/en/base.html",
+      "path": "static/img/core-img/pat-footer.png",
+      "exists": true
+    },
+    {
+      "template": "templates/en/base.html",
+      "path": "static/img/core-img/smartphone.png",
+      "exists": true
+    },
+    {
+      "template": "templates/en/index.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-angelo-musicante-rosso-fiorentino.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/index.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-campo-di-papaveri-c-monet.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/index.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-gustav-klimt-personal-portrait.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/index.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-klimt-bacio.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/index.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-leonardo-da-vinci-disegno.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/index.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-leonardo-da-vinci-monnalisa.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/index.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-munch-urlo.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/index.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals.jpeg",
+      "exists": false
+    },
+    {
+      "template": "templates/en/index.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-woman-at-her-toilet-henri-de-toulouse-lautrec.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/index.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/index.html",
+      "path": "static/img/core-img/favicon.ico",
+      "exists": true
+    },
+    {
+      "template": "templates/en/index.html",
+      "path": "static/img/core-img/fb.png",
+      "exists": true
+    },
+    {
+      "template": "templates/en/index.html",
+      "path": "static/img/core-img/flag-italy.png",
+      "exists": true
+    },
+    {
+      "template": "templates/en/index.html",
+      "path": "static/img/core-img/flag-uk.png",
+      "exists": true
+    },
+    {
+      "template": "templates/en/index.html",
+      "path": "static/img/core-img/lang-icon.png",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-1.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-2.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-3.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-4.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-5.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-6.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-7.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-affresco.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-angelo-musicante-rosso-fiorentino.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-campo-di-papaveri-c-monet.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-caravaggio-bacco.png",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-denittis.png",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-inv-tela.png",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-inv-telaio.png",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-iris-van-gogh.png",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-klimt-bacio.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-leonardo-da-vinci-monnalisa.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-munch-urlo.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-salvator-mundi-leonardo-da-vinci.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-woman-at-her-toilet-henri-de-toulouse-lautrec.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/portfolio-patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-gustav-klimt-personal-portrait.png",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-1.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-2.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-3.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-4.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-5.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-6.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-1.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-2.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-3.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-4.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-5.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/en/portfolio.html",
+      "path": "static/img/core-img/logo-icon.png",
+      "exists": true
+    },
+    {
+      "template": "templates/it/base.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-gustav-klimt-personal-portrait.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/base.html",
+      "path": "static/img/core-im",
+      "exists": false
+    },
+    {
+      "template": "templates/it/base.html",
+      "path": "static/img/core-img/envelope-2.png",
+      "exists": true
+    },
+    {
+      "template": "templates/it/base.html",
+      "path": "static/img/core-img/fb.png",
+      "exists": true
+    },
+    {
+      "template": "templates/it/base.html",
+      "path": "static/img/core-img/flag-italy.png",
+      "exists": true
+    },
+    {
+      "template": "templates/it/base.html",
+      "path": "static/img/core-img/flag-uk.png",
+      "exists": true
+    },
+    {
+      "template": "templates/it/base.html",
+      "path": "static/img/core-img/lang-icon.png",
+      "exists": true
+    },
+    {
+      "template": "templates/it/base.html",
+      "path": "static/img/core-img/pat-footer.png",
+      "exists": true
+    },
+    {
+      "template": "templates/it/base.html",
+      "path": "static/img/core-img/smartphone.png",
+      "exists": true
+    },
+    {
+      "template": "templates/it/index.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-angelo-musicante-rosso-fiorentino.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/index.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-campo-di-papaveri-c-monet.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/index.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-gustav-klimt-personal-portrait.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/index.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-klimt-bacio.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/index.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-leonardo-da-vinci-disegno.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/index.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-leonardo-da-vinci-monnalisa.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/index.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-munch-urlo.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/index.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals.jpeg",
+      "exists": false
+    },
+    {
+      "template": "templates/it/index.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-woman-at-her-toilet-henri-de-toulouse-lautrec.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/index.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/index.html",
+      "path": "static/img/core-img/favicon.ico",
+      "exists": true
+    },
+    {
+      "template": "templates/it/index.html",
+      "path": "static/img/core-img/fb.png",
+      "exists": true
+    },
+    {
+      "template": "templates/it/index.html",
+      "path": "static/img/core-img/flag-italy.png",
+      "exists": true
+    },
+    {
+      "template": "templates/it/index.html",
+      "path": "static/img/core-img/flag-uk.png",
+      "exists": true
+    },
+    {
+      "template": "templates/it/index.html",
+      "path": "static/img/core-img/lang-icon.png",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-1.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-2.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-3.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-4.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-5.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-6.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-7.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-affresco.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-angelo-musicante-rosso-fiorentino.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-campo-di-papaveri-c-monet.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-caravaggio-bacco.png",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-denittis.png",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-inv-tela.png",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-inv-telaio.png",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-iris-van-gogh.png",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-klimt-bacio.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-leonardo-da-vinci-monnalisa.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-munch-urlo.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-salvator-mundi-leonardo-da-vinci.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-woman-at-her-toilet-henri-de-toulouse-lautrec.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/portfolio-patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-gustav-klimt-personal-portrait.png",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-1.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-2.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-3.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-4.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-5.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-6.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-1.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-2.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-3.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-4.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-5.jpeg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/portfolio.html",
+      "path": "static/img/core-img/logo-icon.png",
+      "exists": true
+    },
+    {
+      "template": "templates/it/su-di-me.html",
+      "path": "static/img/core-img/patrizio-buonaiuto-esposizione-casina-pompeiana.jpg",
+      "exists": true
+    },
+    {
+      "template": "templates/it/su-di-me.html",
+      "path": "static/img/core-img/patrizio-buonaiuto-painting-klimt.jpg",
+      "exists": true
+    }
+  ],
+  "missingAssets": [
+    "static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals.jpeg",
+    "static/img/core-im"
+  ],
+  "scope": "Published repository content only. No hidden CMS, drafts or history exists in the legacy Flask source. CV means Su di me, confirmed by the owner."
+}

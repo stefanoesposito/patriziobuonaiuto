@@ -166,3 +166,22 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 .idea/
+
+# Next.js and Sanity local state
+node_modules/
+.next/
+.sanity/
+.vercel/
+.env.*
+!.env.example
+web/public/static/
+web/public/archivio/
+web/public/concept/
+studio/schema.json
+migration/extracted/
+migration/transformed/
+
+*.tsbuildinfo
+# Application sources are not Python library output.
+!web/src/lib/
+!web/src/lib/**

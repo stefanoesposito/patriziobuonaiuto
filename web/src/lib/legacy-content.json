@@ -1,0 +1,543 @@
+{
+  "pages": {
+    "home-it": {
+      "key": "home-it",
+      "kind": "home",
+      "language": "it",
+      "title": "La Copia d'Autore",
+      "paragraphs": [
+        "La Copia d'Autore è una riproduzione contemporanea di un celebre dipinto del passato.",
+        "È il risultato di un lavoro artigianale, interamente eseguito a mano da un pittore professionista.",
+        "È un'opera d'arte realizzata con colori ad olio, tele o tavole invecchiate, eseguito nel rispetto della maniera e tecniche originali. Essa è il frutto di un serio e meticoloso lavoro di ricerca e di preparazione che sta dietro il dipinto finito.",
+        "La Copia d'autore rende godibile e familiare ciò che è patrimonio esclusivo di musei o di pochi privilegiati."
+      ],
+      "images": [],
+      "legacyUrl": "/it/"
+    },
+    "about-it": {
+      "key": "about-it",
+      "kind": "about",
+      "language": "it",
+      "title": "Patrizio Buonaiuto",
+      "paragraphs": [
+        "Patrizio Buonaiuto nasce a Napoli nel 1968, nel 1990/91 si diploma in Pittura all'Accademia Belle Arti di Napoli e da allora inizia un'intensa attività pittorica che lo porta ad esporre proprie opere in numerose mostre collettive.",
+        "Dal 1992 comincia a specializzarsi nella \"Riproduzione d'Autore\" ossia la riproduzione fedele di opere del passato ed ad esporre in numerose città italiane per i principali galleristi del settore, tra i quali \"Le Musee imaginaire\", \"Euromedia\" e \"La Galleria dei Sogni\". La particolarità che lo distingue dalla maggior parte dei pittori che si dedicano alle riproduzioni è la sua incredibile versatilità, le sue conoscenze tecniche gli permettono infatti la riproduzione di qualsiasi opera di pittura, dai classici agli impressionisti, fino ai capolavori moderni, rispettando le forme e i modi della tecnica originaria.",
+        "Ha realizzato negli anni lavori ad olio e trompe l'oeil per importanti negozi e ristoranti di Napoli tra i quali: Marinella, Sartoria Sabino, Ristorante \"Zi' Teresa\", \"La Cantinella\" etc.",
+        "Ha collaborato inoltre con importanti gallerie di Londra tra le quali la \"Alexander Miles Gallery\" per le quali ha esposto e venduto diverse opere originali."
+      ],
+      "images": [
+        "/static/img/core-img/patrizio-buonaiuto-painting-klimt.jpg",
+        "/static/img/core-img/patrizio-buonaiuto-esposizione-casina-pompeiana.jpg"
+      ],
+      "legacyUrl": "/it/su-di-me"
+    },
+    "contact-it": {
+      "key": "contact-it",
+      "kind": "contact",
+      "language": "it",
+      "title": "Mettiti in Contatto con Patrizio Buonaiuto",
+      "paragraphs": [
+        "Sei affascinato dall'arte di Patrizio Buonaiuto? Hai domande, commenti o un progetto speciale in mente? Ci piacerebbe sentirti!",
+        "Che tu sia un appassionato d'arte, un proprietario di galleria o semplicemente curioso, il tuo contatto è importante per noi."
+      ],
+      "images": [],
+      "legacyUrl": "/it/contact"
+    },
+    "home-en": {
+      "key": "home-en",
+      "kind": "home",
+      "language": "en",
+      "title": "Fine Art Reproduction",
+      "paragraphs": [
+        "An Art Replica is a contemporary reproduction of a famous painting from the past.",
+        "It is the result of artisanal work, entirely executed by hand by a professional painter.",
+        "It is a work of art made with oil paints on aged canvases or panels, crafted in accordance with the original methods and techniques. It is the outcome of serious and meticulous research and preparation that goes into the finished painting.",
+        "A Fine Art Reproduction allows for the enjoyment and familiarity of what is typically the exclusive heritage of museums or a select few."
+      ],
+      "images": [],
+      "legacyUrl": "/en/"
+    },
+    "about-en": {
+      "key": "about-en",
+      "kind": "about",
+      "language": "en",
+      "title": "Patrizio Buonaiuto",
+      "paragraphs": [
+        "Patrizio Buonaiuto was born in Naples in 1968. In 1990/91, he graduated in Painting from the Academy of Fine Arts of Naples and since then has embarked on an intense painting career, exhibiting his works in numerous group exhibitions.",
+        "Since 1992, he began to specialize in \"Author Reproduction,\" which is the faithful reproduction of past works, and exhibited in numerous Italian cities for leading gallery owners in the field, including \"Le Musee imaginaire,\" \"Euromedia,\" and \"La Galleria dei Sogni.\" What sets him apart from most painters who engage in reproductions is his incredible versatility. His technical knowledge allows him to reproduce any painting, from classics to impressionists, to modern masterpieces, respecting the forms and methods of the original technique.",
+        "Over the years, he has created oil works and trompe l'oeil for important shops and restaurants in Naples, including: Marinella, Sartoria Sabino, Ristorante \"Zi' Teresa,\" \"La Cantinella,\" etc.",
+        "He has also collaborated with important galleries in London, including the \"Alexander Miles Gallery,\" for which he has exhibited and sold several original works."
+      ],
+      "images": [
+        "/static/img/core-img/patrizio-buonaiuto-painting-klimt.jpg",
+        "/static/img/core-img/patrizio-buonaiuto-esposizione-casina-pompeiana.jpg"
+      ],
+      "legacyUrl": "/en/about-me"
+    },
+    "contact-en": {
+      "key": "contact-en",
+      "kind": "contact",
+      "language": "en",
+      "title": "Get in Touch with Patrizio Buonaiuto",
+      "paragraphs": [
+        "Are you captivated by the artistry of Patrizio Buonaiuto? Do you have questions, comments, or a special project in mind? We'd love to hear from you!",
+        "Whether you're an art enthusiast, a gallery owner, or simply curious, your connection matters to us."
+      ],
+      "images": [],
+      "legacyUrl": "/en/contact"
+    }
+  },
+  "artworks": [
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-affresco.jpeg",
+      "image": "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-affresco.jpeg",
+      "categories": [
+        "portraits"
+      ],
+      "gallery": [],
+      "slug": "ritratto-affresco",
+      "title": {
+        "it": "Ritratto ad affresco",
+        "en": "Fresco portrait"
+      },
+      "sourceArtist": "",
+      "description": {
+        "it": "Ritratto ad affresco: lavoro pittorico di Patrizio Buonaiuto.",
+        "en": "Fresco portrait: a painting by Patrizio Buonaiuto."
+      },
+      "needsEditorialReview": true
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-caravaggio-bacco.png",
+      "image": "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-caravaggio-bacco.png",
+      "categories": [
+        "art-replicas"
+      ],
+      "gallery": [],
+      "slug": "bacco-caravaggio",
+      "title": {
+        "it": "Bacco",
+        "en": "Bacchus"
+      },
+      "sourceArtist": "Caravaggio",
+      "description": {
+        "it": "Bacco: lavoro pittorico di Patrizio Buonaiuto.",
+        "en": "Bacchus: a painting by Patrizio Buonaiuto."
+      },
+      "needsEditorialReview": false
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-salvator-mundi-leonardo-da-vinci.jpeg",
+      "image": "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-salvator-mundi-leonardo-da-vinci.jpeg",
+      "categories": [
+        "art-replicas"
+      ],
+      "gallery": [],
+      "slug": "salvator-mundi",
+      "title": {
+        "it": "Salvator Mundi",
+        "en": "Salvator Mundi"
+      },
+      "sourceArtist": "Leonardo da Vinci",
+      "description": {
+        "it": "Salvator Mundi: lavoro pittorico di Patrizio Buonaiuto.",
+        "en": "Salvator Mundi: a painting by Patrizio Buonaiuto."
+      },
+      "needsEditorialReview": false
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-angelo-musicante-rosso-fiorentino.jpg",
+      "image": "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-angelo-musicante-rosso-fiorentino.jpg",
+      "categories": [
+        "art-replicas"
+      ],
+      "gallery": [],
+      "slug": "angelo-musicante",
+      "title": {
+        "it": "Angelo musicante",
+        "en": "Musician angel"
+      },
+      "sourceArtist": "Rosso Fiorentino",
+      "description": {
+        "it": "Angelo musicante: lavoro pittorico di Patrizio Buonaiuto.",
+        "en": "Musician angel: a painting by Patrizio Buonaiuto."
+      },
+      "needsEditorialReview": false
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-campo-di-papaveri-c-monet.jpeg",
+      "image": "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-campo-di-papaveri-c-monet.jpeg",
+      "categories": [
+        "art-replicas"
+      ],
+      "gallery": [],
+      "slug": "campo-di-papaveri",
+      "title": {
+        "it": "Campo di papaveri",
+        "en": "Poppy field"
+      },
+      "sourceArtist": "Claude Monet",
+      "description": {
+        "it": "Campo di papaveri: lavoro pittorico di Patrizio Buonaiuto.",
+        "en": "Poppy field: a painting by Patrizio Buonaiuto."
+      },
+      "needsEditorialReview": false
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-denittis.png",
+      "image": "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-denittis.png",
+      "categories": [
+        "art-replicas"
+      ],
+      "gallery": [],
+      "slug": "studio-de-nittis",
+      "title": {
+        "it": "Studio da De Nittis",
+        "en": "Study after De Nittis"
+      },
+      "sourceArtist": "Giuseppe De Nittis",
+      "description": {
+        "it": "Studio da De Nittis: lavoro pittorico di Patrizio Buonaiuto.",
+        "en": "Study after De Nittis: a painting by Patrizio Buonaiuto."
+      },
+      "needsEditorialReview": true
+    },
+    {
+      "sourceKey": "img/bg-img/portfolio-patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-gustav-klimt-personal-portrait.png",
+      "image": "/static/img/bg-img/portfolio-patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-gustav-klimt-personal-portrait.png",
+      "categories": [
+        "art-replicas",
+        "portraits"
+      ],
+      "gallery": [],
+      "slug": "ritratto-personalizzato-klimt",
+      "title": {
+        "it": "Ritratto personalizzato ispirato a Klimt",
+        "en": "Personalised portrait inspired by Klimt"
+      },
+      "sourceArtist": "Gustav Klimt",
+      "description": {
+        "it": "Ritratto personalizzato ispirato a Klimt: lavoro pittorico di Patrizio Buonaiuto.",
+        "en": "Personalised portrait inspired by Klimt: a painting by Patrizio Buonaiuto."
+      },
+      "needsEditorialReview": false
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-klimt-bacio.jpeg",
+      "image": "/static/img/bg-img/portfolio-patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-klimt-bacio.jpeg",
+      "categories": [
+        "art-replicas"
+      ],
+      "gallery": [
+        "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-klimt-bacio.jpeg"
+      ],
+      "slug": "il-bacio-klimt",
+      "title": {
+        "it": "Il Bacio",
+        "en": "The Kiss"
+      },
+      "sourceArtist": "Gustav Klimt",
+      "description": {
+        "it": "Il Bacio: lavoro pittorico di Patrizio Buonaiuto.",
+        "en": "The Kiss: a painting by Patrizio Buonaiuto."
+      },
+      "needsEditorialReview": false
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-iris-van-gogh.png",
+      "image": "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-iris-van-gogh.png",
+      "categories": [
+        "art-replicas"
+      ],
+      "gallery": [],
+      "slug": "iris-van-gogh",
+      "title": {
+        "it": "Iris",
+        "en": "Irises"
+      },
+      "sourceArtist": "Vincent van Gogh",
+      "description": {
+        "it": "Iris: lavoro pittorico di Patrizio Buonaiuto.",
+        "en": "Irises: a painting by Patrizio Buonaiuto."
+      },
+      "needsEditorialReview": false
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-leonardo-da-vinci-monnalisa.jpg",
+      "image": "/static/img/bg-img/portfolio-patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-leonardo-da-vinci-monnalisa.jpeg",
+      "categories": [
+        "art-replicas"
+      ],
+      "gallery": [
+        "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-leonardo-da-vinci-monnalisa.jpg"
+      ],
+      "slug": "monna-lisa",
+      "title": {
+        "it": "Monna Lisa",
+        "en": "Mona Lisa"
+      },
+      "sourceArtist": "Leonardo da Vinci",
+      "description": {
+        "it": "Monna Lisa: lavoro pittorico di Patrizio Buonaiuto.",
+        "en": "Mona Lisa: a painting by Patrizio Buonaiuto."
+      },
+      "needsEditorialReview": false
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-munch-urlo.jpg",
+      "image": "/static/img/bg-img/portfolio-patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-munch-urlo.jpeg",
+      "categories": [
+        "art-replicas"
+      ],
+      "gallery": [
+        "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-munch-urlo.jpg"
+      ],
+      "slug": "urlo-munch",
+      "title": {
+        "it": "L’Urlo",
+        "en": "The Scream"
+      },
+      "sourceArtist": "Edvard Munch",
+      "description": {
+        "it": "L’Urlo: lavoro pittorico di Patrizio Buonaiuto.",
+        "en": "The Scream: a painting by Patrizio Buonaiuto."
+      },
+      "needsEditorialReview": false
+    },
+    {
+      "sourceKey": "img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-1.jpeg",
+      "image": "/static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-1.jpeg",
+      "categories": [
+        "originals"
+      ],
+      "gallery": [],
+      "slug": "opera-originale-1",
+      "title": {
+        "it": "Opera originale 1",
+        "en": "Original artwork 1"
+      },
+      "sourceArtist": "",
+      "description": {
+        "it": "Opera originale 1: opera originale di Patrizio Buonaiuto.",
+        "en": "Original artwork 1: an original artwork by Patrizio Buonaiuto."
+      },
+      "needsEditorialReview": true
+    },
+    {
+      "sourceKey": "img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-2.jpg",
+      "image": "/static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-2.jpg",
+      "categories": [
+        "originals"
+      ],
+      "gallery": [],
+      "slug": "opera-originale-2",
+      "title": {
+        "it": "Opera originale 2",
+        "en": "Original artwork 2"
+      },
+      "sourceArtist": "",
+      "description": {
+        "it": "Opera originale 2: opera originale di Patrizio Buonaiuto.",
+        "en": "Original artwork 2: an original artwork by Patrizio Buonaiuto."
+      },
+      "needsEditorialReview": true
+    },
+    {
+      "sourceKey": "img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-3.jpg",
+      "image": "/static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-3.jpg",
+      "categories": [
+        "originals"
+      ],
+      "gallery": [],
+      "slug": "opera-originale-3",
+      "title": {
+        "it": "Opera originale 3",
+        "en": "Original artwork 3"
+      },
+      "sourceArtist": "",
+      "description": {
+        "it": "Opera originale 3: opera originale di Patrizio Buonaiuto.",
+        "en": "Original artwork 3: an original artwork by Patrizio Buonaiuto."
+      },
+      "needsEditorialReview": true
+    },
+    {
+      "sourceKey": "img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-4.jpg",
+      "image": "/static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-4.jpg",
+      "categories": [
+        "originals"
+      ],
+      "gallery": [],
+      "slug": "opera-originale-4",
+      "title": {
+        "it": "Opera originale 4",
+        "en": "Original artwork 4"
+      },
+      "sourceArtist": "",
+      "description": {
+        "it": "Opera originale 4: opera originale di Patrizio Buonaiuto.",
+        "en": "Original artwork 4: an original artwork by Patrizio Buonaiuto."
+      },
+      "needsEditorialReview": true
+    },
+    {
+      "sourceKey": "img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-5.jpg",
+      "image": "/static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-5.jpg",
+      "categories": [
+        "originals"
+      ],
+      "gallery": [],
+      "slug": "opera-originale-5",
+      "title": {
+        "it": "Opera originale 5",
+        "en": "Original artwork 5"
+      },
+      "sourceArtist": "",
+      "description": {
+        "it": "Opera originale 5: opera originale di Patrizio Buonaiuto.",
+        "en": "Original artwork 5: an original artwork by Patrizio Buonaiuto."
+      },
+      "needsEditorialReview": true
+    },
+    {
+      "sourceKey": "img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-6.jpg",
+      "image": "/static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-6.jpg",
+      "categories": [
+        "originals"
+      ],
+      "gallery": [],
+      "slug": "opera-originale-6",
+      "title": {
+        "it": "Opera originale 6",
+        "en": "Original artwork 6"
+      },
+      "sourceArtist": "",
+      "description": {
+        "it": "Opera originale 6: opera originale di Patrizio Buonaiuto.",
+        "en": "Original artwork 6: an original artwork by Patrizio Buonaiuto."
+      },
+      "needsEditorialReview": true
+    },
+    {
+      "sourceKey": "img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-7.jpg",
+      "image": "/static/img/bg-img/originals/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-originals-7.jpg",
+      "categories": [
+        "originals"
+      ],
+      "gallery": [],
+      "slug": "opera-originale-7",
+      "title": {
+        "it": "Opera originale 7",
+        "en": "Original artwork 7"
+      },
+      "sourceArtist": "",
+      "description": {
+        "it": "Opera originale 7: opera originale di Patrizio Buonaiuto.",
+        "en": "Original artwork 7: an original artwork by Patrizio Buonaiuto."
+      },
+      "needsEditorialReview": true
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-woman-at-her-toilet-henri-de-toulouse-lautrec.jpeg",
+      "image": "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-woman-at-her-toilet-henri-de-toulouse-lautrec.jpeg",
+      "categories": [
+        "art-replicas"
+      ],
+      "gallery": [],
+      "slug": "donna-alla-toilette",
+      "title": {
+        "it": "Donna alla toilette",
+        "en": "Woman at her toilet"
+      },
+      "sourceArtist": "Henri de Toulouse-Lautrec",
+      "description": {
+        "it": "Donna alla toilette: lavoro pittorico di Patrizio Buonaiuto.",
+        "en": "Woman at her toilet: a painting by Patrizio Buonaiuto."
+      },
+      "needsEditorialReview": false
+    },
+    {
+      "sourceKey": "img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil.jpg",
+      "image": "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil.jpg",
+      "categories": [
+        "trompe-l-oeil"
+      ],
+      "gallery": [],
+      "slug": "trompe-l-oeil",
+      "title": {
+        "it": "Trompe-l’œil",
+        "en": "Trompe-l’œil"
+      },
+      "sourceArtist": "",
+      "description": {
+        "it": "Trompe-l’œil: lavoro pittorico di Patrizio Buonaiuto.",
+        "en": "Trompe-l’œil: a painting by Patrizio Buonaiuto."
+      },
+      "needsEditorialReview": true
+    }
+  ],
+  "processes": [
+    {
+      "slug": "preparazione-tela",
+      "title": {
+        "it": "Preparazione della tela",
+        "en": "Preparing the canvas"
+      },
+      "images": [
+        "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-inv-tela.png",
+        "/static/img/bg-img/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-inv-telaio.png"
+      ],
+      "sourceKey": "process/preparazione-tela"
+    },
+    {
+      "slug": "palazzo-donn-anna",
+      "title": {
+        "it": "Palazzo Donn’Anna",
+        "en": "Palazzo Donn’Anna"
+      },
+      "images": [
+        "/static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-1.jpeg",
+        "/static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-2.jpeg",
+        "/static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-3.jpeg",
+        "/static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-4.jpeg",
+        "/static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-5.jpeg",
+        "/static/img/bg-img/process/palazzo-donn-anna/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-palazzo-donn-anna-6.jpeg"
+      ],
+      "sourceKey": "process/palazzo-donn-anna"
+    },
+    {
+      "slug": "lattaia-vermeer",
+      "title": {
+        "it": "La Lattaia di Vermeer",
+        "en": "The Milkmaid after Vermeer"
+      },
+      "images": [
+        "/static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-1.jpeg",
+        "/static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-2.jpeg",
+        "/static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-3.jpeg",
+        "/static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-4.jpeg",
+        "/static/img/bg-img/process/vermeer/patrizio-buonaiuto-art-replica-copie-di-autore-trompe-l-oeil-fasi-lattaia-di-vermeer-5.jpeg"
+      ],
+      "sourceKey": "process/lattaia-vermeer"
+    }
+  ],
+  "featured": [
+    "bacco-caravaggio",
+    "il-bacio-klimt",
+    "monna-lisa",
+    "iris-van-gogh",
+    "urlo-munch"
+  ],
+  "settings": {
+    "name": "Patrizio Buonaiuto",
+    "email": "patriziobuonaiuto@gmail.com",
+    "mobile": "+39 338 9333 810",
+    "phone": "+39 081 587 4171",
+    "facebook": "https://www.facebook.com/profile.php?id=61577314981843"
+  },
+  "comparison": {
+    "originalImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Gustav_Klimt_-_Portr%C3%A4t_der_Adele_Bloch-Bauer_I_%281907%29.jpg",
+    "originalTitle": "Gustav Klimt, Ritratto di Adele Bloch-Bauer I, 1907",
+    "artworkSlug": "ritratto-personalizzato-klimt"
+  }
+}

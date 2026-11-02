@@ -1,0 +1,26 @@
+{
+  "name": "@patrizio/studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "sanity dev --host 127.0.0.1",
+    "build": "sanity build",
+    "check": "tsc --noEmit",
+    "schema:extract": "sanity schema extract --path schema.json",
+    "typegen": "sanity schema extract --path schema.json --force && sanity typegen generate"
+  },
+  "dependencies": {
+    "sanity": "6.21.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "styled-components": "^6.1.15",
+    "sanity-plugin-internationalized-array": "5.3.9"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "@types/react": "^19.2.0",
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "project": "abnzzs23",
+  "dataset": "production",
+  "mode": "apply",
+  "documentsPlanned": 30,
+  "artworks": 20,
+  "processProjects": 3,
+  "processImages": 13,
+  "localizedPages": 6,
+  "siteSettings": 1,
+  "imageSources": 39,
+  "existingEditorialDocuments": 0,
+  "writesPerformed": true,
+  "counts": {
+    "artworks": 20,
+    "missingImageReferences": 0,
+    "pages": 6,
+    "processes": 3,
+    "settings": 1
+  }
+}

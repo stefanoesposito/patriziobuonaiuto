@@ -1,0 +1,83 @@
+import "../globals.css";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { getContent } from "@/lib/content";
+import type { Lang } from "@/lib/types";
+export default async function Layout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: Promise<{ lang: string }>;
+}) {
+  const { lang } = await params;
+  if (lang !== "it" && lang !== "en") notFound();
+  const { settings } = await getContent(lang as Lang);
+  const it = lang === "it";
+  const menu = (
+    <>
+      <Link href={`/${lang}/portfolio`}>{it ? "Opere" : "Works"}</Link>
+      <Link href={`/${lang}/${it ? "su-di-me" : "about-me"}`}>
+        {it ? "Biografia e CV" : "Biography & CV"}
+      </Link>
+      <Link href={`/${lang}/contact`}>{it ? "Contatti" : "Contact"}</Link>
+      <Link
+        href={it ? "/en" : "/it"}
+        lang={it ? "en" : "it"}
+        aria-label={it ? "Read in English" : "Leggi in italiano"}
+      >
+        {it ? "EN" : "IT"}
+      </Link>
+    </>
+  );
+  return (
+    <html lang={lang} data-scroll-behavior="smooth">
+      <body>
+        <a className="skip-link" href="#main">
+          {it ? "Vai al contenuto" : "Skip to content"}
+        </a>
+        <header className="site-header">
+          <Link className="brand" href={`/${lang}`}>
+            {settings.name}
+          </Link>
+          <nav
+            className="desktop-nav"
+            aria-label={it ? "Navigazione principale" : "Main navigation"}
+          >
+            {menu}
+          </nav>
+          <details className="mobile-menu">
+            <summary>Menu</summary>
+            <nav aria-label={it ? "Navigazione mobile" : "Mobile navigation"}>
+              {menu}
+            </nav>
+          </details>
+        </header>
+        <main id="main">{children}</main>
+        <footer className="site-footer">
+          <p className="eyebrow">PATRIZIO BUONAIUTO · NAPOLI</p>
+          <h2>
+            {it
+              ? "Un capolavoro, dipinto per te."
+              : "A masterpiece, painted for you."}
+          </h2>
+          <a className="text-link" href={`mailto:${settings.email}`}>
+            {it ? "Scrivi a Patrizio" : "Write to Patrizio"} ↗
+          </a>
+          <div className="footer-links">
+            <Link href={`/${lang}/${it ? "su-di-me" : "about-me"}`}>
+              {it ? "Biografia e CV" : "Biography & CV"}
+            </Link>
+            <Link href={`/${lang}/portfolio`}>
+              {it ? "Tutte le opere" : "All artworks"}
+            </Link>
+            <a href={settings.facebook}>Facebook</a>
+          </div>
+          <p className="small">
+            © {new Date().getFullYear()} {settings.name}
+          </p>
+        </footer>
+      </body>
+    </html>
+  );
+}

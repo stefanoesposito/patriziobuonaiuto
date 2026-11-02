@@ -1,0 +1,19 @@
+{
+  "name": "patriziobuonaiuto-site",
+  "private": true,
+  "workspaces": [
+    "web",
+    "studio"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @patrizio/web",
+    "dev:studio": "npm run dev -w @patrizio/studio",
+    "build:web": "npm run build -w @patrizio/web",
+    "build:studio": "npm run build -w @patrizio/studio",
+    "check": "npm run check --workspaces --if-present",
+    "inventory": "../venv/bin/python migration/scripts/inventory.py"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
