@@ -69,6 +69,7 @@ section[id] {
 }
 .desktop-nav {
   display: flex;
+  align-items: center;
   gap: 28px;
   font:
     12px Arial,
@@ -76,6 +77,17 @@ section[id] {
 }
 .desktop-nav a {
   text-decoration: none;
+}
+.desktop-nav .profile-link,
+.mobile-menu-links .profile-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+}
+.profile-link svg {
+  flex-shrink: 0;
 }
 .mobile-menu {
   display: none;
@@ -538,6 +550,10 @@ h2 {
     font: 16px/1.4 Arial, sans-serif;
     letter-spacing: 0.14em;
     color: #d6b37f;
+  }
+  .mobile-menu-links .profile-link svg {
+    width: 28px;
+    height: 28px;
   }
   .hero h1 {
     font-size: clamp(55px, 14vw, 95px);

@@ -29,6 +29,19 @@ export default async function Layout({
       >
         {it ? "EN" : "IT"}
       </Link>
+      <a
+        className="profile-link"
+        href="https://www.sanity.io/login/email"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={it ? "Accedi a Sanity (nuova scheda)" : "Sign in to Sanity (new tab)"}
+        title={it ? "Accedi a Sanity" : "Sign in to Sanity"}
+      >
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false">
+          <circle cx="12" cy="7.5" r="3.5" />
+          <path d="M5 21v-2a7 7 0 0 1 14 0v2" />
+        </svg>
+      </a>
     </>
   );
   return (
