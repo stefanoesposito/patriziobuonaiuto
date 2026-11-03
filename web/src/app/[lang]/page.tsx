@@ -59,6 +59,28 @@ export default async function Home({
         </a>
       </section>
       <Museum artworks={featured} lang={lang} />
+      {comparison?.beforeImage && (
+        <section className="feature" id="personalizzazioni">
+          <div className="eyebrow">BECOME A MASTERPIECE</div>
+          <h2>
+            {it ? "Entra nel capolavoro." : "Become part of a masterpiece."}
+          </h2>
+          <p>
+            {it
+              ? "Un’opera classica, una storia personale. Da Adele Bloch-Bauer I (1907) alla reinterpretazione personalizzata di Patrizio. Trascina il cursore per confrontarle."
+              : "A classic painting, a personal story. From Adele Bloch-Bauer I (1907) to Patrizio’s personalised interpretation. Drag the slider to compare."}
+          </p>
+          <Comparison
+            original={comparison.beforeImage}
+            after={comparison.image}
+            credit={
+              comparison.beforeCredit ||
+              "Gustav Klimt — Adele Bloch-Bauer I (1907)"
+            }
+            lang={lang}
+          />
+        </section>
+      )}
       <section className="selection section-pad" id="selezione">
         <div className="section-title">
           <div>
@@ -87,28 +109,6 @@ export default async function Home({
           ))}
         </div>
       </section>
-      {comparison?.beforeImage && (
-        <section className="feature" id="personalizzazioni">
-          <div className="eyebrow">BECOME A MASTERPIECE</div>
-          <h2>
-            {it ? "Entra nel capolavoro." : "Become part of a masterpiece."}
-          </h2>
-          <p>
-            {it
-              ? "Un’opera classica, una storia personale. Da Adele Bloch-Bauer I (1907) alla reinterpretazione personalizzata di Patrizio. Trascina il cursore per confrontarle."
-              : "A classic painting, a personal story. From Adele Bloch-Bauer I (1907) to Patrizio’s personalised interpretation. Drag the slider to compare."}
-          </p>
-          <Comparison
-            original={comparison.beforeImage}
-            after={comparison.image}
-            credit={
-              comparison.beforeCredit ||
-              "Gustav Klimt — Adele Bloch-Bauer I (1907)"
-            }
-            lang={lang}
-          />
-        </section>
-      )}
       <section className="story section-pad">
         <p className="eyebrow">
           {it ? "IL MESTIERE DELLA PITTURA" : "THE CRAFT OF PAINTING"}
