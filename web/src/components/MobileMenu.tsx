@@ -54,13 +54,14 @@ export function MobileMenu({
         className="mobile-menu-toggle"
         type="button"
         aria-expanded={open}
+        aria-label={it ? "Apri menu" : "Open menu"}
         aria-controls="mobile-menu-dialog"
         onClick={() => {
           dialog.current?.showModal();
           setOpen(true);
         }}
       >
-        Menu
+        <span className="menu-icon" aria-hidden="true"><span /><span /></span>
       </button>
       <dialog
         ref={dialog}
@@ -88,8 +89,8 @@ export function MobileMenu({
           <Link className="brand" href={`/${lang}`} onClick={closeMenu}>
             {name}
           </Link>
-          <button className="mobile-menu-close" type="button" onClick={closeMenu} autoFocus>
-            {it ? "Chiudi" : "Close"} <span aria-hidden="true">×</span>
+          <button className="mobile-menu-close" type="button" onClick={closeMenu} aria-label={it ? "Chiudi menu" : "Close menu"} autoFocus>
+            <span className="menu-icon is-open" aria-hidden="true"><span /><span /></span>
           </button>
         </div>
         <nav

@@ -518,10 +518,40 @@ h2 {
     gap: 16px;
     background: #14120ff5;
   }
-  .mobile-menu-close span {
-    font-size: 27px;
-    line-height: 1;
-    font-weight: 300;
+  .menu-icon {
+    position: relative;
+    display: block;
+    width: 26px;
+    height: 20px;
+  }
+  .menu-icon > span {
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 26px;
+    height: 2px;
+    border-radius: 1px;
+    background: currentColor;
+    transition: transform 180ms ease;
+  }
+  .menu-icon > span:first-child {
+    transform: translateY(-4px);
+  }
+  .menu-icon > span:last-child {
+    transform: translateY(4px);
+  }
+  .menu-icon.is-open > span:first-child,
+  .mobile-menu-toggle[aria-expanded="true"] .menu-icon > span:first-child {
+    transform: rotate(45deg);
+  }
+  .menu-icon.is-open > span:last-child,
+  .mobile-menu-toggle[aria-expanded="true"] .menu-icon > span:last-child {
+    transform: rotate(-45deg);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .menu-icon > span {
+      transition: none;
+    }
   }
   .mobile-menu-links {
     display: flex;
